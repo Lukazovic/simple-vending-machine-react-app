@@ -1,15 +1,14 @@
 .Snickers {
   width: auto;
   height: 85vh;
-  display: flexbox;
-  align-content: center;
+  display: grid;
   justify-content: center;
-  justify-items: center;
   text-align: center;
 }
 
-.Snickers h1 {
-  color: white;
+.Snickers a {
+  color: rgb(247, 0, 205);
+  animation: fade 3s linear infinite;
 }
 
 .Snickers img {
