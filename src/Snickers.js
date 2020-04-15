@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import snickersImg from "./assets/images/snickers.png";
+import { Link } from "react-router-dom";
 import "./Snickers.css";
 
 class Snickers extends Component {
@@ -7,7 +8,7 @@ class Snickers extends Component {
     return (
       <div className="Snickers">
         <img src={snickersImg} alt="Snickers" />
-        <h1>Go</h1>
+        <Link to="/">Go Back</Link>
       </div>
     );
   }

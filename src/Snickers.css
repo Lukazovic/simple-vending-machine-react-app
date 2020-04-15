@@ -1,9 +1,6 @@
-* {
-  width: auto;
-  height: auto;
-}
-
 .Snickers {
+  width: auto;
+  height: 85vh;
   display: flexbox;
   align-content: center;
   justify-content: center;
