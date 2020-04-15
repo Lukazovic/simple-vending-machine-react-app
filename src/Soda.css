@@ -9,6 +9,7 @@
 .Soda img {
   animation: spin 2s linear infinite;
   width: 30vh;
+  background: rgba(0, 0, 0, 0);
 }
 
 @keyframes spin {

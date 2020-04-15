@@ -26,6 +26,7 @@
 }
 
 .bag {
+  background: rgba(0, 0, 0, 0);
   position: absolute;
-  z-index: -1;
+  width: 150px;
 }
