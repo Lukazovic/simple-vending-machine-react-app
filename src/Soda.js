@@ -10,9 +10,8 @@ class Soda extends Component {
       <div className="Soda">
         <img src={sodaImg} alt="fanta can" />
         <Message>
-          <h1>SODAAAAA IS MY FAVORITE</h1>
-          <h3>But now I drink sparkling water instead</h3>
-          <p>(I still miss Soda)</p>
+          <h1>SODAAAAA IS SOOOO GOOD 😍</h1>
+          <h3>But my health thanks when I do drink water</h3>
           <Link to="/">Go Back</Link>
         </Message>
 
