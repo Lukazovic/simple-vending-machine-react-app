@@ -1,8 +1,4 @@
-* {
-  background: #00030a;
-}
-
-.VendingMachine {
+.VendingMachine-container {
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -11,29 +7,31 @@
   justify-items: center;
 }
 
-.VendingMachine img {
+.VendingMachine-container img {
   width: 45%;
   height: 45%;
 }
 
-.VendingMachine-title {
+.VendingMachine-container-title {
   width: auto;
-  color: white;
+  color: rgb(255, 0, 140);
 }
 
-.VendingMachine-options {
+.VendingMachine-container-options {
   text-align: center;
   width: 10%;
 }
 
-.VendingMachine-options h2 {
+.VendingMachine-container-options h2 {
   font-weight: 400;
-  color: white;
+  color: rgb(255, 0, 140);
   text-decoration: underline;
   cursor: pointer;
   margin: 1rem 0;
+  transition: 0.2s linear;
 }
 
-.VendingMachine-options h2:hover {
-  color: rgba(255, 255, 255, 0.815);
+.VendingMachine-container-options h2:hover {
+  /* color: rgba(223, 222, 222, 0.815); */
+  opacity: 0.75;
 }
