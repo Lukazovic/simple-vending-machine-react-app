@@ -18,10 +18,7 @@
 }
 
 .VendingMachine-container-options {
-  text-align: center;
-  display: flexbox;
-  flex-wrap: wrap;
-  width: 10%;
+  width: 20%;
 }
 
 .VendingMachine-container-options a {
@@ -31,6 +28,9 @@
   cursor: pointer;
   margin: 1rem 0;
   transition: 0.2s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .VendingMachine-container-options a:hover {
