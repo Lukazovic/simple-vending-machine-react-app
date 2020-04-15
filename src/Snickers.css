@@ -1,0 +1,23 @@
+* {
+  width: auto;
+  height: auto;
+}
+
+.Snickers {
+  display: flexbox;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.Snickers img {
+  /* width: 50vh; */
+  margin-top: 10%;
+  width: auto;
+  height: auto;
+}
+
+.Snickers h1 {
+  color: white;
+}
