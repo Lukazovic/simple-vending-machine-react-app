@@ -1,0 +1,39 @@
+* {
+  background: #00030a;
+}
+
+.VendingMachine {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.VendingMachine img {
+  width: 45%;
+  height: 45%;
+}
+
+.VendingMachine-title {
+  width: auto;
+  color: white;
+}
+
+.VendingMachine-options {
+  text-align: center;
+  width: 10%;
+}
+
+.VendingMachine-options h2 {
+  font-weight: 400;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.VendingMachine-options h2:hover {
+  color: rgba(255, 255, 255, 0.815);
+}

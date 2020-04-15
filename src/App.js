@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import VendingMachine from "./VendingMachine";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <VendingMachine />
     </div>
   );
 }
